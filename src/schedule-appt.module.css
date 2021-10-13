@@ -1,0 +1,23 @@
+@import 'vars.css';
+
+.grade {
+  display: block;
+}
+
+.label {
+  display: block;
+  margin: var(--spc-lv3) 0 var(--spc-lv6);
+}
+
+.notes {
+  display: block;
+  width: 400px;
+}
+
+.timePicker {
+  margin-top: var(--spc-lv6);
+}
+
+.submit {
+  margin-top: var(--spc-lv1);
+}

@@ -1,0 +1,32 @@
+@import 'vars.css';
+
+main {
+  flex: 1;
+  padding: 0 var(--spc-lv1);
+}
+
+/*
+  can't select the footer element since react-gradient-timepicker incorrectly
+  uses the footer element
+*/
+.footer {
+  background-color: var(--dark-gray);
+  color: var(--white);
+  display: flex;
+  font-size: 12px;
+  height: 140px;
+  margin-top: var(--spc-lv0);
+}
+
+.footer-card {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-card h4 {
+  margin: var(--spc-lv4) 0;
+}
+
+.footer-card div + div {
+  margin-top: var(--spc-lv7);
+}

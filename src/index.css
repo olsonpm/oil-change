@@ -1,0 +1,73 @@
+@import 'modern-normalize';
+@import 'react-dates/lib/css/_datepicker.css';
+@import 'fonts.css';
+@import 'vars.css';
+
+body {
+  background-image: url('./img/bg-texture.png');
+  color: var(--black);
+  font-family: ABeeZee, sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  background-color: var(--teal);
+  font-family: 'Andada Pro', serif;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+p + p {
+  margin-top: var(--spc-lv7);
+}
+
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+
+h2 {
+  border-left: 4px solid var(--blue);
+  font-size: 30px;
+  margin-top: var(--spc-lv1);
+  margin-bottom: var(--spc-lv2);
+  padding-left: var(--spc-lv2);
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+  padding-bottom: var(--spc-lv1);
+  padding-top: var(--spc-lv1);
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+#site-container {
+  background-color: var(--white);
+  border: 1px solid var(--dark-gray);
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd + dt {
+  margin-top: var(--spc-lv7);
+}

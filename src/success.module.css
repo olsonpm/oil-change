@@ -1,0 +1,15 @@
+@import 'vars.css';
+
+.backHome {
+  margin-top: var(--spc-lv1);
+}
+
+.details {
+  background-color: var(--light-gray);
+  margin-top: var(--spc-lv1);
+  padding: var(--spc-lv4);
+}
+
+.thanks {
+  margin-top: var(--spc-lv1);
+}

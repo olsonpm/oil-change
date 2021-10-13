@@ -1,0 +1,24 @@
+@import "vars.css";
+
+.schedule-an-appt {
+  margin-top: var(--spc-lv1);
+}
+
+.quote {
+  margin-top: var(--spc-lv2);
+}
+
+.quote > div {
+  display: inline-block;
+  margin-left: var(--spc-lv4);
+  vertical-align: top;
+}
+
+.quote-name {
+  margin: var(--spc-lv6) 0;
+}
+
+.quote p {
+  display: inline-block;
+  vertical-align: top;
+}

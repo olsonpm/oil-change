@@ -1,0 +1,17 @@
+:root {
+  --black: #1c1c1c;
+  --red: #b73225;
+  --blue: #0069a7;
+  --maroon: #591c0b;
+  --dark-gray: #2a2c22;
+  --light-gray: #dce1e3;
+  --white: #ffffff;
+
+  --spc-lv0: 100px;
+  --spc-lv1: 40px;
+  --spc-lv2: 20px;
+  --spc-lv3: 17px;
+  --spc-lv4: 14px;
+  --spc-lv6: 10px;
+  --spc-lv7: 8px;
+}
